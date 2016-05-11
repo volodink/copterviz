@@ -4,7 +4,7 @@
 
 function plotData(val) {
 
-    var TESTER = document.getElementById('tester');
+    var TESTER = document.getElementById('height-plot');
 
     var x_array_local = [];
     var y_array_local = [];

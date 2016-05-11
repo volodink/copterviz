@@ -19,6 +19,8 @@ function prepareData() {
     {
         x_array.push(i);
         y_array.push(Math.random());
+        lat_array.push(57.00 + 0.00001*i);
+        lon_array.push(45.00 + 0.00001*i)
     }
 }
 
