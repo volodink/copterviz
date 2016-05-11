@@ -4,10 +4,10 @@
 
 function plotData(val) {
 
-    TESTER = document.getElementById('tester');
+    var TESTER = document.getElementById('tester');
 
-    x_array_local = [];
-    y_array_local = [];
+    var x_array_local = [];
+    var y_array_local = [];
 
     for (var i = 0; i < val; i++) {
         x_array_local.push(x_array[i]);
